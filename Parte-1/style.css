@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(circle at 47.4% 64.74%, #4e398e 0, #2a2468 25%, #040e41 50%, #00001f 75%, #000000 100%);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+ 
+  color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  
+  padding: 10px;
+}
+.container a{
+  color: #fff;
+}
+.banner img{
+  display: flex;
+  margin-left: 650px;
+  width: 50px;
+  height: 50px;
+}
+.banner h3{
+  margin-left: 600px;
+  font-size: 10px;
+  color: #fff;
+}
+.banner p{
+  margin-left: 580px;
+  font-size: 9px;
+  color: #bebdbd;
+}
+.banner h1{
+  justify-content: center;
+  display: flex;
+  margin-left: 450px;
+  margin-right: 350px;
+  font-size: 40px;
+  padding-left: 20px;
+}
+.gradient-text {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(180deg, #d780e9, #100133); /* Colores lila a lila oscuro */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#text{
+  color: rgb(98, 100, 100);
+  font-size: 12px;
+  margin-left: 420px;
+  margin-right: 300px;
+  justify-content: center;
+  display: flex;
+}
